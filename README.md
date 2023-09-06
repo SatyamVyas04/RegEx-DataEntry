@@ -41,20 +41,20 @@ Assuming you have a `data.txt` file with the following format:
 John Doe
 123-456-7890
 123 Main St, City
-john.doe@example.com
+john.doe@gmail.com
 
 Jane Smith
 987-654-3210
 456 Park Ave, Town
-jane.smith@example.com
+jane.smith@yahoo.com
 ```
 
 The Python script will extract the data and create a `data.csv` file with the following content:
 
 ```
 Sr.,FirstName,LastName,Street,Locality,Email,Domain
-1,John,Doe,123 Main St,City,john.doe@example,com
-2,Jane,Smith,456 Park Ave,Town,jane.smith@example,com
+1,John,Doe,123 Main St,City,john.doe@example,gmail
+2,Jane,Smith,456 Park Ave,Town,jane.smith@example,yahoo
 ```
 
 ## License
